@@ -1,0 +1,102 @@
+/*navbar*/
+.navbaredit {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    background-color: lightgrey;
+    opacity: 0.8;
+    font-size: 15px;
+    color: black;
+    padding: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .names10 {
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+  }
+}
+
+.selection {
+  padding-left: 0.5rem;
+}
+H5 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.names10 {
+  font-weight: bolder;
+}
+
+.other {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+}
+.but1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bolder;
+}
+
+footer {
+  padding: 10px;
+  color: grey;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  float: left;
+  width: 100%;
+}
+.socialmedia i {
+  color: darkgoldenrod;
+  font-size: 40px;
+  margin-top: 0.7rem;
+}
+
+.socialmedia i:hover {
+  color: lightgrey;
+}
+
+.copyrights {
+  padding-top: 12px;
+  color: darkgoldenrod;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+}
+
+.form-group {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.reccs {
+  margin-bottom: 8rem;
+}
+
+.names {
+  font-weight: bolder;
+  line-height: 2px;
+}
+
+body {
+  background-color: #bd9463;
+  background-image: url(../images/asfalt-dark.png);
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}

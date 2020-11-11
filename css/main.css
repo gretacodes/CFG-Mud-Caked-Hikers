@@ -1,0 +1,117 @@
+/*navbar*/
+.navbaredit {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/*body*/
+
+.intro {
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-top: 4rem;
+}
+
+.logo1 {
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+/*carousel*/
+
+.relative {
+  position: relative;
+  text-align: center;
+}
+
+#searchBtn {
+  color: black;
+  font-weight: bolder;
+}
+.cap {
+  font-family: "Passion One", cursive;
+  font-size: 80px;
+  opacity: 0.8;
+}
+.muddy {
+  font-size: 78px;
+}
+
+/*mobile styling*/
+@media only screen and (max-width: 768px) {
+  .cap {
+    font-family: "Passion One", cursive;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .muddy {
+    font-family: "Passion One", cursive;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    background-color: lightgrey;
+    opacity: 0.88;
+    font-size: 15px;
+    color: black;
+    padding: 0.2rem;
+  }
+}
+
+/*Footer*/
+
+footer {
+  padding: 10px;
+  color: grey;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  float: left;
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.socialmedia i {
+  color: darkgoldenrod;
+  font-size: 40px;
+  margin-top: 0.7rem;
+}
+
+.socialmedia i:hover {
+  color: lightgrey;
+}
+
+.copyrights {
+  padding-top: 12px;
+  color: darkgoldenrod;
+
+  font-size: 25px;
+}
+
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .nav-link {
+  color: #fff;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  margin-top: 0;
+}

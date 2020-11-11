@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/destinations.css" />
+    <script
+      src="https://kit.fontawesome.com/d4de4aa5ef.js"
+      crossorigin="anonymous"
+    ></script> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Passion+One:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Passion+One:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Passion+One:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Mud-Caked Hikers</title>
+  </head>
+
+  <body>
+      <nav
+      class="navbar fixed-top navbar-expand-md navbar-light bg-faded navbaredit"
+    >
+      <nav class="navbar navbar-light">
+          <a class="navbar-brand" href="https://f5nvc.csb.app/index.html">
+              <img
+                src="/images/Mountains_Logo.png"
+                class="img-responsive"
+                width="120px"
+                height="54px"
+                alt=""
+              />
+            </a>
+        
+
+      </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+            <ul class="navbar-nav mx-auto ">
+               
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html"> HOME</a>
+              </li>
+
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="./destinations.html">
+                  DESTINATIONS
+                </a>
+                <div class="dropdown-menu">
+                    <a href="./wales.html" class="dropdown-item">WALES</a>
+                    <a href="./yorkshire.html" class="dropdown-item"
+                      >YORKSHIRE</a
+                    >
+                    <a href="./london.html" class="dropdown-item">LONDON</a>
+                    <a href="./cumbria.html" class="dropdown-item"
+                      >CUMBRIA</a
+                    >
+                    <a href="./scottishhighlands.html" class="dropdown-item"
+                      >SCOTTISH HIGHLANDS</a
+                    >
+                    <a href="./scotland.html" class="dropdown-item"
+                      >MORE OF SCOTLAND</a
+                    >
+                  </div>
+                
+              </li>
+              
+            
+          
+
+              <li class="nav-item active">
+                <a class="nav-link" href="./recommendations.html">
+                  RECOMMENDATIONS
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="./contact.html"> GET IN TOUCH </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <header>
+      <!--search bar centered with search buttton next to it, goes under and
+      centered to the bar in smaller screens; bar not to get bigger than...?? -->
+      
+        <!-- <form class="searching" class="form-inline">
+          <input
+            id="startchange"
+            class="form-control mr-sm-0"
+            type="search"
+            placeholder="Search"
+            aria-label="search"
+          />
+        </form>
+        <button class="btn btn-light mr-sm-0 but1" type="submit">Search</button> -->
+      <!-- Search form -->
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <button id="searchBtn" class="btn btn-outline-secondary" type="button" onclick="">Button</button>
+        </div>
+        <select class="custom-select" id="selectedSpot">
+          <option selected>All</option>
+          <option value="london">London</option>
+          <option value="wales">Wales</option>
+          <option value="scotland">Scotland</option>
+          <option value="yorkshire">Yorkshire</option>
+          <option value="cumbria">Cumbria</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="card-columns cardz">
+      <div class="card london" style="width: 100%;">
+        <img
+          src="./images/sevenSisters/nirmal-rajendharkumar-NGOCtt8eEMo-unsplash.jpg"
+          class="card-img-top"
+          alt="Ooops!"
+        />
+        <div class="card-body">
+          <h5 class="card-title">London</h5>
+          <p class="card-text">
+            You'd be surprised how many stunning views and picturesque routes
+            there are under an hour outside of London! Fancy a spectacular
+            treck, breathing in the sea breeze - head south to the Seven
+            Sisters. Want to clear your head with a quiet hike out in the green,
+            take the Thames Path up north towards Oxford.
+          </p>
+          <a href="./london.html" class="btn btn-light but1">Explore Routes</a>
+        </div>
+      </div>
+      <div class="card yorkshire" style="width: 100%;">
+        <img
+          src="./images/Yorkshire/pexels-pixabay-220817.jpg"
+          class="card-img-top"
+          alt="Ooops!"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Yorkshire</h5>
+          <p class="card-text">
+            Yorkshire is the greenest county. The Yorkshire Dales and the Moors
+            are just the first to come to mind but far not the only
+            destinations. And how much there is to explore in each of them, will
+            leave you breathless!
+          </p>
+          <a href="./yorkshire.html" class="btn btn-light but1">Explore Routes</a>
+        </div>
+      </div>
+      <div class="card wales" style="width: 100%;">
+        <img
+          src="./images/Snowdonia/pexels-sulav-loktam-5036289.jpg"
+          class="card-img-top"
+          alt="Ooops!"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Wales</h5>
+          <p class="card-text">
+            If you seek real mountain hikes and breath taking bird's-eye views
+            you must visit Wales and Snowdonia!
+          </p>
+          <a href="./wales.html" class="btn btn-light but1">Explore Routes</a>
+        </div>
+      </div>
+      <div class="card scotland" style="width: 100%;">
+        <img
+          src="https://images.unsplash.com/photo-1476990789491-712b869b91a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2388&q=80"
+          class="card-img-top"
+          alt="Ooops!"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Scottish Highlands</h5>
+          <p class="card-text">
+            The Highlands are like nothing you have seen before. However, you
+            really need to pick the right season and the right gear to go and
+            concur them!
+          </p>
+          <a href="./scottish-highlands.html" class="btn btn-light but1">Explore Routes</a>
+        </div>
+      </div>
+      <div class="card scotland" style="width: 100%;">
+        <img
+          src="https://images.unsplash.com/photo-1549046306-739fa5c084c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80"
+          class="card-img-top"
+          alt="Ooops!"
+        />
+        <div class="card-body">
+          <h5 class="card-title">More of Scotland</h5>
+          <p class="card-text">
+            Continue exploring Scotland to find even more scenic views. But be
+            warned - these routes are for bolder and more experienced hikers, so
+            consider starting with one of the lighter destinations.
+          </p>
+          <a href="./scotland.html" class="btn btn-light but1">Explore Routes</a>
+        </div>
+      </div>
+      <div class="card cumbria" style="width: 100%;">
+        <img
+          src="./images/laked.jpg"
+          class="card-img-top"
+          alt="Ooops!"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Cumbria</h5>
+          <p class="card-text">
+              It is best known for containing the Lake District National Park, an area some 30 miles across, containing England's highest mountains (four over 3000 ft), and some of Englands biggest lakes
+          </p>
+          <a href="#" class="btn btn-light but1">Explore Routes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+      <div class="row text-center socialmedia">
+        <div class="col-md-6 copyrights">
+          <p>COPYRIGHT © Mud-Caked Hikers</p>
+        </div>
+        <div class="col-md-6 socialmedia">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function(){       
+          var scroll_start = 0;
+          var startchange = $('#startchange');
+          var offset = startchange.offset();
+          if (startchange.length){
+              $(document).scroll(function() { 
+                  scroll_start = $(document).scrollTop();
+                  if(scroll_start > offset.top) {
+                      $(".bg-faded").css('background-color', 'rgba(255,255,255,0.3)');
+                  } else {
+                      $('.bg-faded').css('background-color', 'transparent');
+                  }
+              });
+          }
+      });
+      </script>
+      <script src="./js/destination.js"></script>
+  </body>
+</html>

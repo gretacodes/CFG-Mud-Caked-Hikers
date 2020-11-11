@@ -1,0 +1,118 @@
+header {
+  font-family: "Barlow Condensed", sans-serif;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.navbaredit {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    background-color: lightgrey;
+    opacity: 0.8;
+    font-size: 15px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding-bottom: 1rem;
+  }
+}
+
+.london1 {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: 5rem;
+}
+
+.york {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: 6.5rem;
+}
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .nav-link {
+  color: #fff;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  margin-top: 0;
+}
+/* body */
+
+body {
+  background-color: #bd9463;
+  background-image: url(../images/asfalt-dark.png);
+}
+
+.colz {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: 6.5rem;
+}
+.card-text {
+  font-family: "Barlow Condensed", sans-serif;
+}
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+}
+
+.navbaredit {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+body {
+  background-color: #bd9463;
+  background-image: url(../images/asfalt-dark.png);
+}
+
+footer {
+  padding: 10px;
+  color: grey;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  float: left;
+  width: 100%;
+}
+.socialmedia i {
+  color: darkgoldenrod;
+  font-size: 40px;
+  margin-top: 0.7rem;
+}
+
+.socialmedia i:hover {
+  color: lightgrey;
+}
+
+.copyrights {
+  padding-top: 12px;
+  color: darkgoldenrod;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+}

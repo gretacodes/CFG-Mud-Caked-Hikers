@@ -1,0 +1,103 @@
+/*navbar*/
+.navbaredit {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    background-color: lightgrey;
+    opacity: 0.8;
+    font-size: 15px;
+    color: black;
+    padding: 0.2rem;
+  }
+}
+
+.name3 {
+  padding-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+.navbar .nav-item:hover .nav-link {
+  color: #fff;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar .nav-item .dropdown-menu {
+  margin-top: 0;
+}
+.names {
+  font-weight: bolder;
+  margin: 0.2rem;
+}
+
+.but1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 768px) {
+  .but1 {
+    margin-bottom: 2rem;
+  }
+}
+
+.form-group {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #bd9463;
+  background-image: url(../images/asfalt-dark.png);
+}
+
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Footer*/
+
+footer {
+  padding: 10px;
+  color: grey;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  float: left;
+  width: 100%;
+}
+.socialmedia i {
+  color: darkgoldenrod;
+  font-size: 40px;
+  margin-top: 0.7rem;
+}
+
+.socialmedia i:hover {
+  color: lightgrey;
+}
+
+.copyrights {
+  padding-top: 12px;
+  color: darkgoldenrod;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 25px;
+}
